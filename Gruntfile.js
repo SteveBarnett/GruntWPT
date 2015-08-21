@@ -14,7 +14,13 @@ module.exports = function(grunt) {
       default: {
         options: {
           url: 'http://example.com',
-          key: process.env.WPT_API_KEY
+          key: process.env.WPT_API_KEY,
+          location: "Dulles_MotoG",
+          connection: "3G",
+          runs: 5,
+          video: true,
+          private: true,
+          sensitive: true
         }
       }
     }
