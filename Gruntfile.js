@@ -20,7 +20,11 @@ module.exports = function(grunt) {
           runs: 5,
           video: true,
           private: true,
-          sensitive: true
+          sensitive: true,
+          budget: {
+            visualComplete: '4000',
+            SpeedIndex: '1500'
+          }
         }
       }
     }
